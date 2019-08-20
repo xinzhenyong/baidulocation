@@ -1,0 +1,18 @@
+
+{
+  "name": "@1ziton/react-native-baidulocation",
+  "version": "1.0.0",
+  "description": "百度定位",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native", "百度定位"
+  ],
+  "author": "",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "0.59.1"
+  }
+}
