@@ -32,7 +32,19 @@
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
       implementation project(':@1ziton_react-native-baidulocation')
+      1.在主项目的build.gradle 配置key
+          defaultConfig {
+        manifestPlaceholders = [
+                BAIDU_APPKEY:'yourkey'
+        ]
+
+    }
+    2.在主项目的AndroidManifest.xml配置
+          <meta-data
+        android:name="com.baidu.lbsapi.API_KEY"
+        android:value="${BAIDU_APPKEY}" />
   	```
+
 
 
 ## Usage
